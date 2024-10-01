@@ -1,0 +1,32 @@
+{
+  "pins": {
+    "disko": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nix-community",
+        "repo": "disko"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "version": "v1.8.0",
+      "revision": "624fd86460e482017ed9c3c3c55a3758c06a4e7f",
+      "url": "https://api.github.com/repos/nix-community/disko/tarball/v1.8.0",
+      "hash": "06ifryv6rw25cz8zda4isczajdgrvcl3aqr145p8njxx5jya2d77"
+    },
+    "nixpkgs": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nixos",
+        "repo": "nixpkgs"
+      },
+      "branch": "nixos-24.05",
+      "revision": "1719f27dd95fd4206afb9cec9f415b539978827e",
+      "url": "https://github.com/nixos/nixpkgs/archive/1719f27dd95fd4206afb9cec9f415b539978827e.tar.gz",
+      "hash": "1fdc4by8wcgsswld2rrs5h7s23mh273phcg43xrfrxqw6j3gvzpp"
+    }
+  },
+  "version": 3
+}
